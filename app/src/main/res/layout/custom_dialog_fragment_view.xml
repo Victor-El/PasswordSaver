@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="@dimen/normal_margin_padding"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/identifier_frag_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:autofillHints="identifier"
+        android:tooltipText="Identifier"
+        android:textSize="@dimen/edit_text_size"
+        android:background="@drawable/edit_style"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:hint="@string/pass_name"/>
+    <EditText
+        android:id="@+id/password_frag_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:autofillHints="password"
+        android:tooltipText="Password"
+        android:background="@drawable/edit_style"
+        android:textSize="@dimen/edit_text_size"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:padding="10dp"
+        android:hint="@string/pass_value"/>
+    <Button
+        android:id="@+id/frag_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_style"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/btn_text_size"
+        android:text="@string/submit"
+        android:padding="5dp"/>
+
+</LinearLayout>

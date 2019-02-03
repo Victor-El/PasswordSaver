@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Password Saver</string>
+    <string name="action_settings">Settings</string>
+    <string name="pass_name">Enter the identifier here</string>
+    <string name="pass_value">Enter the password here</string>
+    <string name="submit">Submit</string>
+    <string name="dialog_title">Add New Password</string>
+</resources>
